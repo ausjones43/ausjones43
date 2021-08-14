@@ -1,0 +1,19 @@
+body {
+  background-color: black;
+}
+h1 {
+  background-color: green;
+}
+
+button{
+  background-color: lightblue;
+  font-color: black;
+}
+div{
+	text-align:center;
+	margin:auto;
+}
+
+p {
+  background-color: yellow;
+}

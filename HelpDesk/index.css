@@ -1,0 +1,25 @@
+body {
+	background-color: #00308f;
+}
+
+div {
+	background-color: #00308f;
+	text-align:center;
+	margin:auto;
+}
+p{
+	color: white;
+}
+button {
+  border: none;
+  background-color: green;
+  color: White;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+

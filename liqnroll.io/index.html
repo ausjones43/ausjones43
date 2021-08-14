@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <meta charset="UTF-8">
+        <title>Liq n' roll: VA Alcohol delivery service</title>
+		<link rel="stylesheet" href="index.css">
+		<script src="C:\Users\614760\Documents\liqnroll.io\driverIntake.js"></script>
+		<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+		<script language="javascript">
+</head>
+
+<body>	
+	<div>
+		<button onclick="getOrderForm()">Request Delivery</button><br>
+		<button onclick="driverIntake()">Sign up to Drive</button><br>
+		<button onclick="whatWeDo()">How it works</button><br>
+	</div>
+	<script>
+		$email = test_input($_POST["email"]);
+		if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+			$emailErr = "Invalid email format";
+		}
+	</script>
+</body>
+</html>

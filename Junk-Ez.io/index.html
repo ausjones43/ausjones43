@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <meta charset="UTF-8">
+        <title>Junk-Ez.io: Next Gen Waste Management</title>
+		<link rel="stylesheet" href="index.css">
+		<script src="C:\Users\614760\Documents\Junk-Ez.io\driverIntake.js"></script>
+		<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+		<script language="javascript">
+</head>
+
+<body>
+    Junk-Ez
+	
+	<div>
+		<button onclick="getOrderForm()">$250 Junk Haul</button><br>
+		<button onclick="driverIntake()">Sign up to Drive</button><br>
+		<button onclick="whatWeDo()">What we do</button><br>
+		<button onclick="upCycleMarket()">Upcyclers Market</button><br>
+		<button onclick="farmersMarket()">Farmers Market</button><br>
+	</div>
+	<script>
+		$email = test_input($_POST["email"]);
+		if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+			$emailErr = "Invalid email format";
+		}
+	</script>
+</body>
+</html>
